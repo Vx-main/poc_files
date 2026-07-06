@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: <img/src=x> booo
-  description: '<div class="login-form"> <img/src="x"/onerror=> <div class="heading"> <h1>HTML Injection : Fake Login</h1> </div> <script>let boo = "boo";</script> <div class="form-container"> <form action="javascript:" method="post" class="form-signin"> <div class="form-group"> <label for="username">Username</label> <input type="text" name="username" size="20">  </div> <div class="form-group"> <label for="password">Password</label> <input type="password" name="password" size="20">  </div> <div class="form-group"> <button type="submit" class="btn btn-default">Login</button> </div> </form> </div> </div>'
+  description: '<div class="login-form"> <?xml-stylesheet > <img src=x onerror="alert(1)"> ?> <div class="heading"> <h1>HTML Injection : Fake Login</h1> </div> <script>let boo = "boo";</script> <div class="form-container"> <form action="javascript:" method="post" class="form-signin"> <div class="form-group"> <label for="username">Username</label> <input type="text" name="username" size="20">  </div> <div class="form-group"> <label for="password">Password</label> <input type="password" name="password" size="20">  </div> <div class="form-group"> <button type="submit" class="btn btn-default">Login</button> </div> </form> </div> </div>'
 paths:
   /:
     post:
