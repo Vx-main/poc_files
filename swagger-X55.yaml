@@ -4,8 +4,8 @@ info:
   title: <img/src=x> booo
   description:  <textarea name="xss" title=""></textarea><script>alert('XSS')</script> <!--"-->
   paths:
-  /:
-    post:
-      responses:
-        '200':
-          description: Login successful
+    /:
+      post:
+        responses:
+          '200':
+            description: Login successful
