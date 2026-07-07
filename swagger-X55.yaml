@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Example yaml.spec
-  description: <?xml-stylesheet > <img src=x onerror="alert(1)"> ?> <form><math><mtext></form><form><mglyph><svg><mtext><style><path id="</style><img onerror=alert(\'XSS\') src>">
+  description: <?img src=x onerror="alert(1)"?> <form><math><mtext></form><form><mglyph><svg><mtext><style><path id="</style><img onerror=alert(\'XSS\') src>">
 paths:
   /accounts:
     get:
