@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: <img/src=x> booo
-  description: \x3c!--<?xml-stylesheet > <img src=x onerror="alert(1)"> ?> <textarea name="xss" title=""></textarea><script>alert('XSS')</script> <!--"-->
+  description:  <textarea name="xss" title=""></textarea><script>alert('XSS')</script> <!--"-->
   paths:
   /:
     post:
