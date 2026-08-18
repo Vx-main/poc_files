@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Example yaml.spec
-  description: <math><mtext><table><mglyph><svg><mtext><a><table><mglyph><svg><mtext><a><image href=x onerror=alert(1)>
+  description: <div><xmp><b></b></xmp><img src=nope.gif onerror="alert(document.domain)"></xmp></div>
 paths:
   /accounts:
     get:
